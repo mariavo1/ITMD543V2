@@ -21,6 +21,11 @@ nav ul li a{
     color: black;
 }
 
+a:hover {
+    background-color:#ff2bca;
+    padding: 10px;
+}
+
 h1 {
     text-align: center;
 }
