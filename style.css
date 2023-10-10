@@ -14,3 +14,9 @@ h1 {
 h2 {
     text-align: center;
 }
+
+p {
+    text-align: center;
+    font-size: 25px;
+    margin: auto 30px;
+}
