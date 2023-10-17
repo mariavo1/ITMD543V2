@@ -78,7 +78,7 @@ input {
     cursor: pointer;
 }
 
-.item {
+#list li {
     list-style: none;
     font-size: 18px;
     padding-top: 15px;
@@ -88,7 +88,7 @@ input {
     position: relative;
 }
 
-.item::before{
+#list li::before{
     content: '';
     background-image: url("unchecked.png");
     background-size: cover;
@@ -99,3 +99,4 @@ input {
     left: 10px;
     top: 10px;
 }
+
