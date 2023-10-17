@@ -81,8 +81,21 @@ input {
 .item {
     list-style: none;
     font-size: 18px;
-    padding-top: 18px;
-    padding-left: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
     cursor: pointer;
     user-select: none;
+    position: relative;
+}
+
+.item::before{
+    content: '';
+    background-image: url("unchecked.png");
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
