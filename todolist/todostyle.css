@@ -100,3 +100,10 @@ input {
     top: 10px;
 }
 
+.item {
+    text-decoration: line-through;
+}
+
+#list li.item::before {
+    background-image: url("checked.png");
+}
