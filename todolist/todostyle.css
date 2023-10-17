@@ -5,22 +5,28 @@
 }
 
 nav ul {
-    display: flex;
     list-style-type: none;
-    padding: 10px;
     font-size: 17px;
     margin: 0;
-    background-color: #f7f0f5;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d6d2d2d;
+}
+
+nav li {
+    float: left;
 }
 
 nav ul li a{
+    display: block;
     text-decoration: none;
     color: black;
+    padding: 10px 16px;
+    background-color: #f7f0f5;
 }
 
 a:hover {
     background-color:#ff2bca;
-    padding: 10px;
 }
 
 .container {
