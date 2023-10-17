@@ -33,3 +33,10 @@ h2 {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+input {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+
