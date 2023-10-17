@@ -15,7 +15,8 @@
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    background-color: #f0f0f0;
+    /*background-color: #f0f0f0;*/
+    background-image: url("notebook.jpeg");
     margin: 50px auto;
     padding: 20px 50px 40px;
 }
