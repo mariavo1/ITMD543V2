@@ -78,7 +78,11 @@ input {
     cursor: pointer;
 }
 
-ul li {
+.item {
     list-style: none;
-    font-size: 14px;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
 }
