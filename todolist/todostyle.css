@@ -107,3 +107,8 @@ input {
 #list li.item::before {
     background-image: url("checked.png");
 }
+
+#list li span {
+     position: absolute;
+     right: 0;
+}
