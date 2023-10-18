@@ -17,10 +17,10 @@ function addTask() {
 }
 
 list.addEventListener("click", function(env){
-    if(env.target.tagName === "li") {
+    if(env.target.tagName === "LI") {
         env.target.classList.toggle("item");
     }
-    else if(env.target.tagName === "span") {
+    else if(env.target.tagName === "SPAN") {
         env.target.parentElement.remove();
     }
 }, false); 
