@@ -23,4 +23,4 @@ list.addEventListener("click", function(env){
     else if(env.target.tagName === "span") {
         env.target.parentElement.remove();
     }
-}, false);
+}, false); 
