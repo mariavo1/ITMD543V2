@@ -14,6 +14,7 @@ function addTask() {
         li.appendChild(span);
     }
     text.value = "";
+    save();
 }
 
 list.addEventListener("click", function(env){
@@ -24,3 +25,8 @@ list.addEventListener("click", function(env){
         env.target.parentElement.remove();
     }
 }, false); 
+
+function save() {
+    localStorage.setItem("data", list.innerHTML);
+}
+
