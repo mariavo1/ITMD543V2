@@ -8,23 +8,31 @@ body {
 }
 
 nav ul {
-    display: flex;
     list-style-type: none;
-    padding: 10px;
     font-size: 17px;
     margin: 0;
-    background-color: #f7f0f5;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d6d2d2;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #fff;
 }
 
 nav ul li a{
+    display: block;
     text-decoration: none;
     color: black;
+    padding: 10px 16px;
+    background-color: #f7f0f5;
 }
 
 a:hover {
     background-color:#ff2bca;
-    padding: 10px;
 }
+
 
 h1 {
     text-align: center;
