@@ -110,5 +110,12 @@ input {
 
 #list li span {
      position: absolute;
-     right: 0;
+     right: 0; 
+     width: 25px;
+     height: 25px; 
+     text-align: center;  
+}
+
+#list li span:hover{
+    background-color: #fc0808;
 }
