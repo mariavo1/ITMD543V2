@@ -23,6 +23,7 @@ list.addEventListener("click", function(env){
     }
     else if(env.target.tagName === "SPAN") {
         env.target.parentElement.remove();
+        save();
     }
 }, false); 
 
@@ -30,3 +31,7 @@ function save() {
     localStorage.setItem("data", list.innerHTML);
 }
 
+function getList() {
+    list.innerHTML = localStorage.getItem("data");
+}
+getList();
