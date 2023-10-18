@@ -100,7 +100,7 @@ input {
     top: 10px;
 }
 
-.item {
+ul li.item {
     text-decoration: line-through;
 }
 

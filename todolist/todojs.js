@@ -15,3 +15,12 @@ function addTask() {
     }
     text.value = "";
 }
+
+list.addEventListener("click", function(env){
+    if(env.target.tagName === "li") {
+        env.target.classList.toggle("item");
+    }
+    else if(env.target.tagName === "span") {
+        env.target.parentElement.remove();
+    }
+}, false);
